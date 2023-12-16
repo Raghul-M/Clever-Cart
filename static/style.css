@@ -1,0 +1,151 @@
+/* Reset default margin and padding */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 20;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: Tahoma;
+}
+
+/* Header styling */
+header {
+    background-color: #4cb434;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+/* Logo styling */
+.logo img {
+    width: 50px; /* Adjust the logo width as needed */
+    height:50px;
+}
+
+/* Navigation styling */
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 70px;
+
+}
+
+/* Align navigation items to the left */
+nav ul {
+    justify-content: flex-start;
+}
+
+
+/* Button styling */
+.cta-button {
+    background-color: white;
+    color: #4cb434;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex; /* Make the button a flex container */
+    align-items: center; /* Vertically center content and image */
+}
+
+.cta-button img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px; /* Add margin to the left of the image */
+}
+
+
+
+/* Main content layout */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Content section styling */
+.content {
+    flex: 1;
+    padding-right: 40px;
+
+}
+
+.content h1{
+    font-size: 40px;
+    padding-left: 20px;
+
+}
+#top1{
+    padding-top: 10px;
+    margin-top:-160px
+
+}
+
+.content p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-left: 20px;
+}
+
+/* Image section styling */
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Search section styling */
+.search {
+
+    padding: 10px;
+    padding-left: 40px;
+    padding-top: 0%;
+    margin-top:-320px;
+    border-radius:5px;
+
+
+}
+legend{
+    padding: 5px;
+    color:#4cb434;
+}
+
+.input-field {
+    border: none;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    border-radius: 5px;
+
+}
+
+.submit-button {
+    background-color: #4cb434;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+
+.submit-button:hover {
+    background-color: #4cb434;
+}
