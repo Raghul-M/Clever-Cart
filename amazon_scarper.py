@@ -66,4 +66,3 @@ def amazon_input(prod_val:str):
     driver.quit()
     return amazon_result
 
-#amazon_input("realme 9 pro")

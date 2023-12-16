@@ -17,7 +17,7 @@ def flipkart_input(prod_val:str):
     web_link ="https://www.flipkart.com/"
     driver.get(web_link)
     try:
-        cross = driver.find_element(By.XPATH, '//button[@class="_2KpZ6l _2doB4z"]').click()
+        cross = driver.find_element(By.XPATH, '/html/body/div[3]/div/span').click()
         time.sleep(5)
 
 
